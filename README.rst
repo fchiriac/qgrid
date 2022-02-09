@@ -1,4 +1,4 @@
-This is another qgrid clone from the official Quantopian repo as the project is no longer maintained by Quantopian.
+This is another qgrid fork from the official Quantopian repo as the project is no longer maintained by Quantopian.
 Adding some fixes long the way.
 
 
