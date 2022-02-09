@@ -10,7 +10,7 @@ class SliderFilter extends filter_base.FilterBase {
           <i class='fa fa-times icon-remove close-button'></i>
         </h3>
         <div class='dropdown-body'>
-          <div class='slider-range'/>
+          <div class='slider-range'></div>
           <span class='slider-label'>
             <span class='min-value'>0</span>
             <span class='range-separator'>-</span>
