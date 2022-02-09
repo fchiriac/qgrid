@@ -17,12 +17,10 @@ Clone the repository from GitHub and cd into the top-level directory:
 git clone https://github.com/fchiriac/qgrid
 ```
 
-Go to the cloned project directory:
-=====
-
 ```
 cd qgrid
 ```
+
 Install the current project in editable mode:
 =====
 
