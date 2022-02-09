@@ -1,6 +1,34 @@
 This is another qgrid clone from the official Quantopian repo as the project is no longer maintained by Quantopian.
 Adding some fixes long the way.
 
+
+Running from source & testing your changes
+-----------------------------
+
+If you'd like to contribute to qgrid, or just want to be able to modify the source code for your own purposes, you'll want to clone this repository and run qgrid from your local copy of the repository. The following steps explain how to do this.
+
+Clone the repository from GitHub and cd into the top-level directory:
+-----------------------------
+
+git clone https://github.com/quantopian/qgrid.git
+cd qgrid
+Install the current project in editable mode:
+
+pip install -e .
+Install the node packages that qgrid depends on and build qgrid's javascript using webpack:
+
+cd js && npm install .
+Install and enable qgrid's javascript in your local jupyter notebook environment:
+
+jupyter nbextension install --py --symlink --sys-prefix qgrid && jupyter nbextension enable --py --sys-prefix qgrid
+If desired, install the labextension:
+
+jupyter labextension link js/
+Run the notebook as you normally would with the following command:
+
+jupyter notebook
+
+
 =====
 
 .. image:: https://media.quantopian.com/logos/open_source/qgrid-logo-03.png
