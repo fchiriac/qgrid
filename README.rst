@@ -56,6 +56,12 @@ Run the notebook as you normally would with the following command:
 jupyter notebook
 ```
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 =====
 qgrid
 =====
