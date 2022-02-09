@@ -12,38 +12,39 @@ If you'd like to contribute to qgrid, or just want to be able to modify the sour
 
 Clone the repository from GitHub and cd into the top-level directory:
 =====
-
+```
 git clone https://github.com/fchiriac/qgrid
-
+```
 Go to the cloned project directory:
 =====
-
+```
 cd qgrid
-
+```
 Install the current project in editable mode:
 =====
-
+```
 pip install -e .
-
+```
 Install the node packages that qgrid depends on and build qgrid's javascript using webpack:
 =====
-
+```
 cd js && npm install .
-
+```
 Install and enable qgrid's javascript in your local jupyter notebook environment:
 =====
-
+```
 jupyter nbextension install --py --symlink --sys-prefix qgrid && jupyter nbextension enable --py --sys-prefix qgrid
-
+```
 If desired, install the labextension:
 =====
-
+```
 jupyter labextension link js/
-
+```
 Run the notebook as you normally would with the following command:
 =====
-
+```
 jupyter notebook
+```
 
 =====
 qgrid
