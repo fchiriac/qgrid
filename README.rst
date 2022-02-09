@@ -10,7 +10,7 @@ If you'd like to contribute to qgrid, or just want to be able to modify the sour
 Clone the repository from GitHub and cd into the top-level directory:
 -----------------------------
 
-git clone https://github.com/quantopian/qgrid.git
+git clone https://github.com/fchiriac/qgrid
 cd qgrid
 Install the current project in editable mode:
 
