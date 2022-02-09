@@ -1,3 +1,8 @@
+This is another qgrid clone from the official Quantopian repo as the project is no longer maintained by Quantopian.
+Adding some fixes long the way.
+
+=====
+
 .. image:: https://media.quantopian.com/logos/open_source/qgrid-logo-03.png
     :target: https://qgrid.readthedocs.io
     :width: 190px
