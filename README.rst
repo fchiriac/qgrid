@@ -32,11 +32,6 @@ Install and enable qgrid's javascript in your local jupyter notebook environment
 
 jupyter nbextension install --py --symlink --sys-prefix qgrid && jupyter nbextension enable --py --sys-prefix qgrid
 
-If desired, install the labextension:
-=====
-
-jupyter labextension link js/
-
 Run the notebook as you normally would with the following command:
 =====
 
